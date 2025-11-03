@@ -34,7 +34,7 @@ It provides real-time and forecast weather information with a modern, minimalist
 
 1. **Clone this repository**
    ```bash
-   git clone https://github.com/yourusername/weather-app.git
+   git clone https://github.com/AndrewLau97/WeatherApp.git
    cd weather-app
 
 ---
