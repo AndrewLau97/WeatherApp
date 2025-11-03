@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --font-georgia: "Georgia", sans-serif;
+   --font-merriweather: "Merriweather", sans-serif;
+  --color-blue: #82c8e5;
+  --color-blue2: #87ceeb;
+}
+
+input:focus {
+  outline: none;
+}
