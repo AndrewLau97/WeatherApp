@@ -40,7 +40,9 @@ const WeatherAnimation = ({ code, setWeatherCondition }) => {
     99: { text: "Thunderstorm with heavy hail", lottie: storm },
   };
   useEffect(()=>{
-    setWeatherCondition(WeatherCode[code].text);
+    if(setWeatherCondition){
+      setWeatherCondition(WeatherCode[code].text);
+    }
   },[])
   return (
     <>

@@ -28,7 +28,7 @@ const WeatherWeekCard = ({ dayData, showWeather, setShowWeather }) => {
         onClick={() => {
           setShowWeather(time);
         }}
-        className="hover:cursor-pointer hover:translate-y-1 border-1 hover:shadow-md transform-all duration-500 p-3 rounded-2xl text-center min-h-57 flex flex-col justify-between"
+        className="hover:cursor-pointer hover:translate-y-1 border-1 hover:shadow-md transform-all duration-500 p-3 rounded-2xl text-center xl:min-h-57 flex flex-col xl:justify-between"
       >
         <div>
           <p className="text-2xl">
@@ -38,7 +38,7 @@ const WeatherWeekCard = ({ dayData, showWeather, setShowWeather }) => {
           <p className="text-xl">{weatherCondition}</p>
         </div>
         <div>
-          <div className="w-10 h-10 mx-auto">
+          <div className="xl:w-10 xl:h-10 h-20 w-20 mx-auto">
             <WeatherAnimation
               code={weathercode}
               setWeatherCondition={setWeatherCondition}

@@ -72,7 +72,7 @@ const Weather = () => {
 
   return (
     <>
-      <div className="h-screen font-georgia p-5">
+      <div className="h-screen font-georgia p-3">
         <div className="bg-gray-400 flex w-fit px-2 rounded-3xl mx-auto">
           <input
             type="text"
